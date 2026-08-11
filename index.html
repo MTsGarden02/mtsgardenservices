@@ -1,93 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="MT’s Garden Services & Landscaping — family-run garden maintenance and landscaping with over 20 years of experience.">
-  <title>MT’s Garden Services & Landscaping | 20+ Years Experience</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
-  <style>
-    :root{--ink:#172019;--green:#31583d;--sage:#dfe9df;--cream:#f6f5ef;--white:#fff;--muted:#657067;--line:#dce2dc}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
-    h1,h2,h3{font-family:Manrope,sans-serif;line-height:1.1;margin:0 0 18px}h1{font-size:clamp(42px,6vw,76px);letter-spacing:-3px}h2{font-size:clamp(32px,4vw,48px);letter-spacing:-1.5px}
-    a{color:inherit;text-decoration:none}.container{width:min(1160px,92%);margin:auto}
-    header{position:absolute;top:0;left:0;width:100%;z-index:5;color:#fff}.nav{height:88px;display:flex;align-items:center;justify-content:space-between}.brand{font-family:Manrope;font-weight:800;font-size:20px}.brand span{color:#b8d0b8}.links{display:flex;gap:30px;font-weight:600}.links a:hover{color:#cfe0cf}
-    .hero{min-height:760px;display:flex;align-items:center;color:#fff;position:relative;background:linear-gradient(90deg,rgba(11,25,15,.88),rgba(11,25,15,.42)),url("images/pond-project.jpeg") center/cover}
-    .hero-content{padding-top:80px;max-width:820px}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-weight:700;font-size:13px;color:#c9dec9;margin-bottom:18px}.hero p{font-size:20px;max-width:650px;color:#edf2ed}.buttons{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;padding:14px 22px;border-radius:6px;font-weight:700}.btn-primary{background:#fff;color:var(--ink)}.btn-secondary{border:1px solid rgba(255,255,255,.5);color:#fff}
-    section{padding:95px 0}.intro{display:grid;grid-template-columns:1fr 1.2fr;gap:70px;align-items:center}.intro p{font-size:18px;color:var(--muted)}.stat{display:flex;gap:20px;align-items:center;margin-top:28px}.stat strong{font:800 52px Manrope;color:var(--green)}.stat span{color:var(--muted);max-width:160px}
-    .services{background:#fff}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:45px}.section-head p{max-width:460px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);padding:30px;background:#fff;border-radius:8px}.card .num{font-weight:800;color:var(--green);font-size:13px;letter-spacing:1px}.card h3{font-size:23px;margin-top:40px}.card p{color:var(--muted);margin:0}
-    .feature{background:var(--sage)}.feature-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}.ticks{display:grid;gap:15px;margin-top:28px}.tick{display:flex;gap:12px;font-weight:600}.tick b{color:var(--green)}.quote{background:var(--ink);color:#fff;border-radius:12px;padding:42px}.quote p{color:#cbd4cc}.quote a{display:block;border-bottom:1px solid #536058;padding:15px 0;font-weight:600}
-    .contact{background:#fff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px}.contact-list{display:grid;gap:15px}.contact-item{padding:20px 0;border-bottom:1px solid var(--line)}.contact-item small{display:block;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);font-weight:700}.contact-item a{font-size:20px;font-weight:700}.cta{margin-top:35px}
-    footer{background:#111812;color:#dfe7df;padding:35px 0}.foot{display:flex;justify-content:space-between;gap:25px}.foot small{color:#9da99f}
-    @media(max-width:800px){.links{display:none}.hero{min-height:700px}.intro,.feature-grid,.contact-grid{grid-template-columns:1fr;gap:35px}.grid{grid-template-columns:1fr}.section-head{display:block}.foot{display:block}.foot small{display:block;margin-top:10px}section{padding:70px 0}}
-  
-    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-    .gallery figure{margin:0;background:#fff;border-radius:8px;overflow:hidden;border:1px solid var(--line)}
-    .gallery img{display:block;width:100%;height:300px;object-fit:cover}
-    .gallery figcaption{padding:18px;font-weight:700}
-    .gallery figcaption span{display:block;color:var(--muted);font-weight:400;font-size:14px;margin-top:4px}
-    @media(max-width:800px){.gallery{grid-template-columns:1fr}.gallery img{height:260px}}
-
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="MT’s Garden Services & Landscaping. Father and son garden maintenance and landscaping specialists with 20+ years experience, covering Gloucestershire and surrounding areas.">
+<title>MT’s Garden Services & Landscaping | Gloucestershire</title>
+<style>
+:root{--g:#0f2d17;--g2:#173d22;--o:#ef6a00;--c:#f6f4ee;--w:#fff;--ink:#172018;--muted:#687169;--line:#e3e4de}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--c)}a{text-decoration:none;color:inherit}img{display:block;max-width:100%}.container{width:min(1180px,92%);margin:auto}
+.topbar{background:var(--g);color:#fff;font-size:13px}.topbar .container{min-height:38px;display:flex;justify-content:space-between;align-items:center;gap:18px}.topbar .right{display:flex;gap:22px;flex-wrap:wrap}.orange{color:var(--o)}
+.navwrap{background:#fff;position:sticky;top:0;z-index:20;box-shadow:0 2px 10px rgba(0,0,0,.06)}.nav{height:94px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo img{width:165px;max-height:120px;object-fit:contain}.links{display:flex;gap:28px;font-weight:700;font-size:14px}.links a:hover{color:var(--o)}.qbtn{background:var(--o);color:#fff;padding:14px 20px;border-radius:6px;font-weight:800}
+.hero{min-height:530px;color:#fff;display:flex;align-items:center;background:linear-gradient(90deg,rgba(5,21,10,.9),rgba(5,21,10,.58),rgba(5,21,10,.1)),url('images/pond-project.jpeg') center/cover}.hero .copy{max-width:620px;padding:70px 0}.eyebrow{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:#ff9b50}.hero h1{font-size:56px;line-height:1.06;margin:13px 0 18px}.hero p{font-size:18px;line-height:1.6;color:#edf2ee;max-width:550px}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:26px}.btn{padding:14px 19px;border-radius:6px;font-weight:800;font-size:14px}.btn.orangebg{background:var(--o);color:#fff}.btn.outline{border:1px solid rgba(255,255,255,.7);color:#fff}
+.trust{background:var(--g);color:#fff}.trustgrid{display:grid;grid-template-columns:repeat(4,1fr)}.trustitem{padding:18px 20px;border-right:1px solid rgba(255,255,255,.16)}.trustitem:last-child{border-right:0}.trustitem strong{display:block;font-size:13px;text-transform:uppercase}.trustitem span{font-size:12px;color:#dce5dc}
+section{padding:70px 0}.servicewrap{display:grid;grid-template-columns:.85fr 2.4fr;gap:34px;align-items:start}.title h2{font-size:38px;line-height:1.08;margin:8px 0 14px}.title p{color:var(--muted);line-height:1.7}.line{width:45px;height:3px;background:var(--o);margin:14px 0 18px}.darkbtn{display:inline-block;background:var(--g);color:#fff;padding:12px 16px;border-radius:5px;font-weight:800;font-size:13px;margin-top:12px}
+.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.card{background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden}.card img{width:100%;height:150px;object-fit:cover}.card .body{padding:16px}.card h3{font-size:15px;margin:0 0 8px;text-transform:uppercase}.card p{font-size:13px;color:var(--muted);line-height:1.45;margin:0}
+.about{background:#fff}.aboutgrid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.photo2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.photo2 img{width:100%;height:245px;object-fit:cover;border-radius:8px}.checks{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}.check{font-weight:700;font-size:14px}.check:before{content:"✓";color:var(--o);margin-right:8px}
+.work{background:var(--g);color:#fff}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.gallery figure{margin:0;position:relative;height:275px;overflow:hidden;border-radius:8px}.gallery img{width:100%;height:100%;object-fit:cover}.gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:35px 16px 16px;background:linear-gradient(transparent,rgba(0,0,0,.8));font-weight:800}.gallery span{display:block;color:#ffd2ae;font-size:12px;margin-top:4px}
+.reviewsbox{background:#fff;border:1px solid var(--line);border-radius:10px;padding:34px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}.reviewsbox h2{font-size:34px;margin:0 0 10px}.reviewsbox p{margin:0;color:var(--muted)}
+.contact{background:#fff}.contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:45px}.contact h2{font-size:40px;margin:8px 0 16px}.contact p{color:var(--muted);line-height:1.65}.contactcards{display:grid;gap:11px}.contactcard{background:var(--c);border:1px solid var(--line);padding:17px;border-radius:8px}.contactcard small{display:block;text-transform:uppercase;font-size:11px;letter-spacing:1px;color:var(--muted);font-weight:800}.contactcard strong{display:block;margin-top:4px;font-size:18px}
+footer{background:var(--g);color:#fff}.foot{padding:34px 0;display:grid;grid-template-columns:1.1fr .8fr 1fr 1fr;gap:30px}.foot img{width:165px;background:#fff;border-radius:8px;padding:4px}.foot h4{font-size:13px;text-transform:uppercase;margin:0 0 12px}.foot p,.foot a{display:block;color:#dce5dc;font-size:13px;line-height:1.5;margin:6px 0}.quote{border:1px solid var(--o);padding:17px;border-radius:8px}.bottom{background:var(--o);padding:10px 0;font-size:12px}.bottom .container{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:950px){.links{display:none}.cards{grid-template-columns:repeat(2,1fr)}.servicewrap,.aboutgrid,.contactgrid{grid-template-columns:1fr}.trustgrid{grid-template-columns:repeat(2,1fr)}.foot{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.topbar .container{display:block;text-align:center;padding:8px 4%}.topbar .right{justify-content:center;gap:10px;margin-top:5px}.nav{height:80px}.logo img{width:115px}.qbtn{display:none}.hero{min-height:610px;background-position:58% center}.hero .copy{padding:100px 0 60px}.hero h1{font-size:40px}.trustgrid{grid-template-columns:1fr}.trustitem{border-right:0;border-bottom:1px solid rgba(255,255,255,.16)}.cards{grid-template-columns:1fr}.card img{height:210px}.photo2{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.reviewsbox{grid-template-columns:1fr}.foot{grid-template-columns:1fr}.bottom .container{display:block;text-align:center}.checks{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
-<header><div class="container nav"><a class="brand" href="#">MT’s <span>Garden Services & Landscaping</span></a><nav class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#work">Our Work</a><a href="#why">Why MT’s</a><a href="#contact">Contact</a></nav></div></header>
-
+<div class="topbar"><div class="container"><div><span class="orange">●</span> Gloucestershire & Surrounding Areas</div><div class="right"><a href="tel:07951725370">☎ Martin: 07951 725370</a><a href="tel:07483297463">☎ Mike: 07483 297463</a><a href="mailto:MTsGarden02@outlook.com">✉ MTsGarden02@outlook.com</a></div></div></div>
+<div class="navwrap"><div class="container nav"><a class="logo" href="#home"><img src="images/mts-logo.png" alt="MT’s Garden Services & Landscaping logo"></a><nav class="links"><a href="#home">HOME</a><a href="#about">ABOUT US</a><a href="#services">SERVICES</a><a href="#work">OUR WORK</a><a href="#reviews">REVIEWS</a><a href="#contact">CONTACT</a></nav><a class="qbtn" href="#contact">GET A FREE QUOTE</a></div></div>
 <main>
-<section class="hero">
-  <div class="container hero-content">
-    <div class="eyebrow">Family-run • 20+ years experience</div>
-    <h1>Gardens built to be enjoyed.</h1>
-    <p>Professional garden maintenance and landscaping from a father-and-son team with more than 20 years of experience, covering Gloucestershire and surrounding areas.</p>
-    <div class="buttons"><a class="btn btn-primary" href="#contact">Get a free quote</a><a class="btn btn-secondary" href="tel:07951725370">Call Martin</a></div>
-  </div>
-</section>
-
-<section id="about"><div class="container intro">
-  <div><div class="eyebrow" style="color:var(--green)">About MT’s</div><h2>Experience you can rely on.</h2></div>
-  <div><p>MT’s Garden Services & Landscaping is a family-run father-and-son business built on more than 20 years of practical experience.</p><p>From keeping an established garden looking its best to completely transforming an outdoor space, we take pride in quality workmanship, attention to detail and leaving every job tidy.</p><div class="stat"><strong>20+</strong><span>years of experience in garden maintenance & landscaping</span></div></div>
-</div></section>
-
-<section class="services" id="services"><div class="container">
-  <div class="section-head"><div><div class="eyebrow" style="color:var(--green)">What we do</div><h2>One team for the whole garden.</h2></div><p>General maintenance, landscaping and outdoor improvements — tailored to your garden and your requirements.</p></div>
-  <div class="grid">
-    <article class="card"><div class="num">01 / MAINTENANCE</div><h3>Garden Maintenance</h3><p>Lawn care, hedge cutting, pruning, weeding, tidying and regular or one-off garden visits.</p></article>
-    <article class="card"><div class="num">02 / LANDSCAPING</div><h3>Landscaping</h3><p>Garden transformations, planting, turfing, patios, paths, sleepers and other outdoor improvements.</p></article>
-    <article class="card"><div class="num">03 / TREES</div><h3>Tree Work</h3><p>Tree and shrub work to help keep your outdoor space safe, tidy and looking its best.</p></article>
-    <article class="card"><div class="num">04 / FENCING</div><h3>Fencing & Gates</h3><p>New fencing, repairs, gates and practical solutions to improve privacy, security and appearance.</p></article>
-    <article class="card"><div class="num">05 / CLEARANCE</div><h3>Garden Clearances</h3><p>Overgrown gardens and general clearances handled efficiently, with the space left clean and ready for its next stage.</p></article>
-    <article class="card"><div class="num">06 / AND MORE</div><h3>More Outdoor Work</h3><p>Have something else in mind? Get in touch and we can discuss what you need.</p></article>
-  </div>
-</div></section>
-
-
-<section class="services" id="work"><div class="container">
-  <div class="section-head">
-    <div><div class="eyebrow" style="color:var(--green)">Recent work</div><h2>A look at what we do.</h2></div>
-    <p>A selection of completed garden maintenance, landscaping, tree work and patio projects.</p>
-  </div>
-  <div class="gallery">
-    <figure><img src="images/pond-project.jpeg" alt="Garden pond landscaping project"><figcaption>Garden pond <span>Landscaping & planting</span></figcaption></figure>
-    <figure><img src="images/tree-work.jpeg" alt="Tree and hedge work"><figcaption>Tree & hedge work <span>Garden maintenance</span></figcaption></figure>
-    <figure><img src="images/patio-project-1.jpeg" alt="Natural stone patio"><figcaption>Natural stone patio <span>Landscaping</span></figcaption></figure>
-    <figure><img src="images/patio-project-2.jpeg" alt="Patio and garden building"><figcaption>Patio & garden building <span>Landscaping</span></figcaption></figure>
-    <figure><img src="images/garden-project.jpeg" alt="Finished garden with lawn and paving"><figcaption>Finished garden <span>Lawn & paving</span></figcaption></figure>
-    <figure><img src="images/patio-project-3.jpeg" alt="Modern dark patio"><figcaption>Contemporary patio <span>Landscaping</span></figcaption></figure>
-  </div>
-</div></section>
-
-<section class="feature" id="why"><div class="container feature-grid">
-  <div><div class="eyebrow" style="color:var(--green)">Why choose MT’s</div><h2>A family business that cares about the finished job.</h2><div class="ticks"><div class="tick"><b>✓</b> Over 20 years’ experience</div><div class="tick"><b>✓</b> Father-and-son team</div><div class="tick"><b>✓</b> Maintenance & landscaping under one roof</div><div class="tick"><b>✓</b> Professional, tidy workmanship</div><div class="tick"><b>✓</b> Free, no-obligation quotes</div></div></div>
-  <div class="quote"><h3>Let’s talk about your garden.</h3><p>Whether it needs regular maintenance or a complete change, give us a call and tell us what you have in mind.</p><a href="tel:07951725370">Martin · 07951 725370 →</a><a href="tel:07483297463">Mike · 07483 297463 →</a><a href="mailto:MTsGarden02@outlook.com">MTsGarden02@outlook.com →</a></div>
-</div></section>
-
-<section class="contact" id="contact"><div class="container contact-grid">
-  <div><div class="eyebrow" style="color:var(--green)">Get in touch</div><h2>Ready to improve your garden?</h2><p style="color:var(--muted);font-size:18px">Contact MT’s Garden Services & Landscaping for a free, no-obligation quote. We cover Gloucestershire and surrounding areas.</p><div class="buttons cta"><a class="btn" style="background:var(--green);color:#fff" href="mailto:MTsGarden02@outlook.com">Email us</a><a class="btn" style="border:1px solid var(--line)" href="https://wa.me/447951725370">WhatsApp</a></div></div>
-  <div class="contact-list"><div class="contact-item"><small>Areas we cover</small><a href="#contact">Gloucestershire & surrounding areas</a></div><div class="contact-item"><small>Martin Tustin</small><a href="tel:07951725370">07951 725370</a></div><div class="contact-item"><small>Mike Tustin</small><a href="tel:07483297463">07483 297463</a></div><div class="contact-item"><small>Email</small><a href="mailto:MTsGarden02@outlook.com">MTsGarden02@outlook.com</a></div></div>
-</div></section>
+<section class="hero" id="home"><div class="container"><div class="copy"><div class="eyebrow">Father & son • 20+ years experience</div><h1>Beautiful gardens built & maintained to the highest standard</h1><p>Professional garden maintenance, landscaping and outdoor solutions across Gloucestershire and surrounding areas.</p><div class="actions"><a class="btn orangebg" href="#services">OUR SERVICES</a><a class="btn outline" href="tel:07951725370">☎ CALL US TODAY</a></div></div></div></section>
+<div class="trust"><div class="container trustgrid"><div class="trustitem"><strong>Family Run</strong><span>Father & son business you can rely on</span></div><div class="trustitem"><strong>20+ Years Experience</strong><span>Decades of knowledge and trusted expertise</span></div><div class="trustitem"><strong>Quality Workmanship</strong><span>Proud of every project, big or small</span></div><div class="trustitem"><strong>Local & Reliable</strong><span>Gloucestershire & surrounding areas</span></div></div></div>
+<section id="services"><div class="container servicewrap"><div class="title"><div class="eyebrow">What we do</div><h2>Garden Services & Landscaping Specialists</h2><div class="line"></div><p>From regular maintenance to complete garden transformations, we offer a comprehensive range of services to keep your outdoor space looking its best all year round.</p><a class="darkbtn" href="#contact">GET A FREE QUOTE →</a></div><div class="cards">
+<article class="card"><img src="images/garden-project.jpeg" alt="Garden maintenance"><div class="body"><h3>Garden Maintenance</h3><p>Lawn care, hedge cutting, weeding, tidying, pruning and more.</p></div></article>
+<article class="card"><img src="images/patio-project-1.jpeg" alt="Landscaping"><div class="body"><h3>Landscaping</h3><p>Patios, paths, planting, turfing, sleepers and garden makeovers.</p></div></article>
+<article class="card"><img src="images/tree-work.jpeg" alt="Tree work"><div class="body"><h3>Tree Work</h3><p>Tree and shrub work to keep your garden safe, tidy and healthy.</p></div></article>
+<article class="card"><img src="images/patio-project-3.jpeg" alt="Fencing and gates"><div class="body"><h3>Fencing & Gates</h3><p>New fencing, repairs and gates for privacy, security and appearance.</p></div></article>
+<article class="card"><img src="images/patio-project-2.jpeg" alt="Garden clearances"><div class="body"><h3>Clearances & More</h3><p>Garden clearances, overgrown spaces and other outdoor projects.</p></div></article>
+</div></div></section>
+<section class="about" id="about"><div class="container aboutgrid"><div class="photo2"><img src="images/pond-project.jpeg" alt="Landscaped pond"><img src="images/tree-work.jpeg" alt="Tree and hedge work"></div><div class="title"><div class="eyebrow">About MT’s</div><h2>A family business built on experience.</h2><p>MT’s Garden Services & Landscaping is a father-and-son business with more than 20 years of experience in garden maintenance and landscaping. We take pride in reliable service, quality workmanship and leaving every job tidy.</p><div class="checks"><div class="check">20+ years experience</div><div class="check">Father & son team</div><div class="check">Free no-obligation quotes</div><div class="check">Gloucestershire coverage</div></div></div></div></section>
+<section class="work" id="work"><div class="container"><div class="title"><div class="eyebrow">Our work</div><h2>Recent garden projects</h2><p style="color:#dce5dc">Real examples of landscaping and maintenance completed by MT’s Garden Services & Landscaping.</p></div><div class="gallery">
+<figure><img src="images/pond-project.jpeg" alt="Garden pond"><figcaption>Garden Pond<span>Landscaping & planting</span></figcaption></figure>
+<figure><img src="images/patio-project-1.jpeg" alt="Natural stone patio"><figcaption>Natural Stone Patio<span>Landscaping</span></figcaption></figure>
+<figure><img src="images/patio-project-2.jpeg" alt="Patio and garden building"><figcaption>Patio & Garden Building<span>Landscaping</span></figcaption></figure>
+<figure><img src="images/garden-project.jpeg" alt="Finished garden"><figcaption>Finished Garden<span>Lawn & paving</span></figcaption></figure>
+<figure><img src="images/patio-project-3.jpeg" alt="Contemporary patio"><figcaption>Contemporary Patio<span>Landscaping</span></figcaption></figure>
+<figure><img src="images/tree-work.jpeg" alt="Tree work"><figcaption>Tree & Hedge Work<span>Garden maintenance</span></figcaption></figure>
+</div></div></section>
+<section id="reviews"><div class="container"><div class="reviewsbox"><div><div class="eyebrow">Customer feedback</div><h2>Happy with our work?</h2><p>Customer reviews will be added here as we build our online presence. If we’ve completed work for you, we’d really appreciate your feedback.</p></div><a class="qbtn" href="#contact">CONTACT US</a></div></div></section>
+<section class="contact" id="contact"><div class="container contactgrid"><div><div class="eyebrow">Get in touch</div><h2>Get your free quote</h2><p>Tell us what you need and we’ll be happy to discuss the job and arrange a free, no-obligation quote.</p><div class="actions"><a class="btn orangebg" href="tel:07951725370">CALL MARTIN</a><a class="btn" style="background:var(--g);color:#fff" href="mailto:MTsGarden02@outlook.com">EMAIL US</a></div></div><div class="contactcards"><div class="contactcard"><small>Martin Tustin</small><strong><a href="tel:07951725370">07951 725370</a></strong></div><div class="contactcard"><small>Mike Tustin</small><strong><a href="tel:07483297463">07483 297463</a></strong></div><div class="contactcard"><small>Email</small><strong><a href="mailto:MTsGarden02@outlook.com">MTsGarden02@outlook.com</a></strong></div><div class="contactcard"><small>Areas covered</small><strong>Gloucestershire & surrounding areas</strong></div></div></div></section>
 </main>
-<footer><div class="container foot"><div><strong>MT’s Garden Services & Landscaping</strong></div><small>Family-run garden maintenance & landscaping • Gloucestershire & surrounding areas • 20+ years’ experience</small></div></footer>
-</body>
-</html>
+<footer><div class="container foot"><div><img src="images/mts-logo.png" alt="MT's logo"></div><div><h4>Quick Links</h4><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#work">Our Work</a><a href="#contact">Contact</a></div><div><h4>Serving</h4><p>Gloucestershire & surrounding areas</p><p>Garden maintenance, landscaping, tree work, fencing and more.</p></div><div class="quote"><h4>Get your free quote</h4><p>No obligation — just friendly advice and a competitive quote.</p><a class="btn orangebg" href="#contact">GET IN TOUCH TODAY</a></div></div><div class="bottom"><div class="container"><span>© 2026 MT’s Garden Services & Landscaping.</span><span>mtsgardenservices.co.uk</span></div></div></footer>
+</body></html>
