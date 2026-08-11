@@ -1,14 +1,11 @@
-MT’s Garden Services & Landscaping — Version 2
+MT’s Garden Services & Landscaping — Version 4
 
-New in this version:
-- Quote form that opens a pre-filled email to MTsGarden02@outlook.com
-- Clickable phone and email details
-- Expanded service information
-- Click-to-enlarge project gallery
-- Mobile navigation improvements
-- Honest reviews section ready for genuine customer reviews
-- SEO title, description, canonical URL, Open Graph metadata and LocalBusiness structured data
-- robots.txt and sitemap.xml for search engines
+Updates:
+- Expanded About Us section
+- Three-generation family team wording
+- Based around the Cotswolds
+- Reliability, attention to detail and fair pricing messaging
+- Updated SEO description
 
-Upload index.html, robots.txt, sitemap.xml and the images folder to the same GitHub repository.
-Keep the existing CNAME file.
+Upload the files to the existing GitHub repository.
+KEEP the existing CNAME file exactly as it is.
