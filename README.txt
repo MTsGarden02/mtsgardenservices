@@ -1,11 +1,10 @@
-MT’s Garden Services & Landscaping — Version 4
+MT’s Garden Services & Landscaping — SEO Update
 
-Updates:
-- Expanded About Us section
-- Three-generation family team wording
-- Based around the Cotswolds
-- Reliability, attention to detail and fair pricing messaging
-- Updated SEO description
-
-Upload the files to the existing GitHub repository.
-KEEP the existing CNAME file exactly as it is.
+Updates include:
+- Local search wording for Cheltenham, Winchcombe, the Cotswolds and Gloucestershire
+- Improved page title and meta description
+- Improved Open Graph title/description
+- Expanded LocalBusiness structured data area served
+- Service and contact copy strengthened for local search
+- Existing design, images, colours, contact details and functionality retained
+- robots.txt and sitemap.xml retained and checked
