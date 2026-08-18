@@ -11,4 +11,3 @@ Updates include:
 - Two clearly marked team profile placeholders added for the third-generation and trusted team member, ready for names/photos/details
 - Sitemap updated to include the Meet the Team page
 - Existing design, colours, services, photos and contact numbers retained
-Deployment refresh - 17 August 2026
